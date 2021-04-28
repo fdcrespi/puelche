@@ -1,14 +1,11 @@
 <?php
 
+include_once './libs/smarty/libs/Smarty.class.php';
 
 class UserView{
 
-    function __construct()
-    {
-        
-    }
-
     function imprimir(){
-        echo "hola mundo";
+        $smarty = new Smarty ();
+        $smarty->display('./templates/main.tpl');
     }
 }
