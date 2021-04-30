@@ -1,4 +1,4 @@
-.header {
+/* .header {
     background: url(../img/bg-header.jpeg) no-repeat center;
     background-size: cover;
     min-height: 100vh;
@@ -6,4 +6,24 @@
 
 .header .navbar {
     background-color: transparent !important;
+} */
+
+
+/* Carrousel */
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
 }
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+
+/* FIN */

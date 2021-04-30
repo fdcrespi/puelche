@@ -6,14 +6,13 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Puelche</title>           
             <link rel="icon" type="image/jpg" href="people-search-icon.jpg">
-            {* <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.min.css"> *}
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-<<<<<<< HEAD
+              <!-- Bootstrap core CSS -->
+            <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+            {* <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> *}
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
             <link rel="stylesheet" href="./css/mystyle.css"> 
+            <link rel="stylesheet" href="./css/carousel.css">
+            <script type="text/javascript" src="./js/main.js"></script>
             {* <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> *}
-=======
-            {*   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> *}
->>>>>>> eff7b5c3523d94ce280bd1925475e42def0c8ade
         </head>
  
