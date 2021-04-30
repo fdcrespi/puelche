@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-04-29 18:11:03
+/* Smarty version 3.1.39, created on 2021-04-29 18:16:41
   from 'C:\xampp\htdocs\proyect\puelche\templates\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_608ada97dcb487_01298304',
+  'unifunc' => 'content_608adbe95b9d71_59368558',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4946041229efec7f751913212559a71a57d40690' => 
     array (
       0 => 'C:\\xampp\\htdocs\\proyect\\puelche\\templates\\header.tpl',
-      1 => 1619712644,
+      1 => 1619712995,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:head.tpl' => 1,
   ),
 ),false)) {
-function content_608ada97dcb487_01298304 (Smarty_Internal_Template $_smarty_tpl) {
+function content_608adbe95b9d71_59368558 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender('file:head.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
@@ -40,6 +40,9 @@ $_smarty_tpl->_subTemplateRender('file:head.tpl', $_smarty_tpl->cache_id, $_smar
                         <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#">¿Quiénes somos?</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Productos</a>
                     </li>
                     <li class="nav-item dropdown">
@@ -48,14 +51,13 @@ $_smarty_tpl->_subTemplateRender('file:head.tpl', $_smarty_tpl->cache_id, $_smar
                             Servicios
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            <a class="dropdown-item" href="#">Diseño y construcción de matrices</a>
+                            <a class="dropdown-item" href="#">Estampados piezas metalicas</a>
+                            <a class="dropdown-item" href="#">Soplado piezas metalicas</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">¿Quienes somos?</a>
+                        <a class="nav-link" href="#">Promociones</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contacto</a>

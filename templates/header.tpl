@@ -15,6 +15,9 @@
                         <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#">¿Quiénes somos?</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Productos</a>
                     </li>
                     <li class="nav-item dropdown">
@@ -23,14 +26,13 @@
                             Servicios
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            <a class="dropdown-item" href="#">Diseño y construcción de matrices</a>
+                            <a class="dropdown-item" href="#">Estampados piezas metalicas</a>
+                            <a class="dropdown-item" href="#">Soplado piezas metalicas</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">¿Quienes somos?</a>
+                        <a class="nav-link" href="#">Promociones</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contacto</a>
