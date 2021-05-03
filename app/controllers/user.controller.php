@@ -9,7 +9,7 @@ class UserController{
         $this->view = new UserView();
     }
 
-    function holamundo(){
-        $this->view->imprimir();
+    function home(){
+        $this->view->showHome();
     }
 }

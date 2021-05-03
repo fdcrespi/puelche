@@ -10,7 +10,7 @@
    $router = new Router();
 
    /* Creando la tabla de ruteo */
-   $router->setDefaultRoute('UserController' , 'holamundo');
+   $router->setDefaultRoute('UserController' , 'home');
 
    /* rutea -> obteniendo el RECURSO y el METODO por el que me llamaron */
    $router->route($_GET['resource'], $_SERVER['REQUEST_METHOD']);
