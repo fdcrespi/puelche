@@ -1,18 +1,20 @@
-  <script src="./assets/dist/js/jquery-3.6.0.min.js"></script>
-  <script src="./assets/dist/js/popper.min.js"></script>
-  <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script src="./assets/dist/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/dist/js/popper.min.js"></script>
+    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
 
-  <p class="fixed-bottom text-end mr-100">
-      <a href="#" class="m-3">
-          <i class="fas fa-angle-up fa-2x text-success"></i>
-      </a>
-  </p>
+    </body>
 
-  <!-- FOOTER -->
-  <footer class="container">
+    <p class="fixed-bottom text-end mr-100">
+        <a href="#" class="m-3">
+            <i class="fas fa-angle-up fa-2x text-success"></i>
+        </a>
+    </p>
 
-      <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-  </footer>
+    <!-- FOOTER -->
+    <footer class="container">
 
-  </html>
+        <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+
+</html>

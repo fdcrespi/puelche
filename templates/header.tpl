@@ -17,7 +17,7 @@
                             <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">¿Quiénes somos?</a>
+                            <a id="btn-about" class="nav-link" href="">¿Quiénes somos?</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Productos</a>

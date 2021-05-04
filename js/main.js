@@ -3,10 +3,9 @@
 document.addEventListener("DOMContentLoaded", initPage());
 
 function initPage() {
-    cargarArchivo();
+    /* cargarArchivo(); */
 
-
-    async function cargarArchivo() {
+    /* async function cargarArchivo() {
         try {
             let r = await fetch('texto.txt');
             console.log(r);
@@ -15,5 +14,12 @@ function initPage() {
         } catch (e) {
             console.log(e);
         }
-    }
+    } */
+
+
+    document.querySelector("#btn-about").addEventListener("click", function(e) {
+        e.preventDefault();
+        let about = document.getElementById("about");
+        about.offsetTop();
+    });
 }
