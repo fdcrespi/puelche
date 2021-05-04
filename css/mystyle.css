@@ -27,3 +27,13 @@
 
 
 /* FIN */
+
+.contact {
+    background-color: rgb(8, 49, 74);
+    padding: 5px;
+}
+
+.carousel-1 {
+    background-image: url('./img/byn.png');
+    background-size: cover;
+}
