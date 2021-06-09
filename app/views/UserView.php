@@ -8,4 +8,9 @@ class UserView{
         $smarty = new Smarty ();
         $smarty->display('./templates/main.tpl');
     }
+
+    function showProductos(){
+        $smarty = new Smarty ();
+        $smarty->display('./templates/productos.tpl');
+    }
 }

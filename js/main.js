@@ -3,23 +3,39 @@
 document.addEventListener("DOMContentLoaded", initPage());
 
 function initPage() {
-    /* cargarArchivo(); */
 
-    /* async function cargarArchivo() {
-        try {
-            let r = await fetch('texto.txt');
-            console.log(r);
-            let text = await r.text();
-            console.log(text);
-        } catch (e) {
-            console.log(e);
+    window.addEventListener("scroll", () => {
+        let d = document.querySelector("#about");
+        if (d.offsetTop < document.documentElement.scrollTop) {
+            document.querySelector("#btn-up").classList.remove("invisible");
+        } else {
+            document.querySelector("#btn-up").classList.add("invisible");
         }
-    } */
-
+    })
 
     document.querySelector("#btn-about").addEventListener("click", function(e) {
         e.preventDefault();
-        let about = document.getElementById("about");
-        about.offsetTop();
+        goElement(document.querySelector("#about"));
     });
+
+    function goElement(element) {
+        let posiciones = element.getBoundingClientRect();
+        window.scroll(posiciones.left, posiciones.top);
+    }
+
+    document.querySelector("#btn-contact").addEventListener("click", (e) => {
+        e.preventDefault();
+        goElement(document.querySelector("#contactInfo"));
+    });
+
+    document.querySelector("#link-top").addEventListener("click", (e) => {
+        e.preventDefault();
+        goElement(document.querySelector("#header-page"));
+    });
+
+    document.querySelector("#btn-product").addEventListener("click", (e) => {
+        e.preventDefault();
+        goElement(document.querySelector("#products"));
+    });
+
 }

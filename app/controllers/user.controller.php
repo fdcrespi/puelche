@@ -12,4 +12,8 @@ class UserController{
     function home(){
         $this->view->showHome();
     }
+
+    function getProductos(){
+        $this->view->showProductos();
+    }
 }
