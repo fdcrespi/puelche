@@ -5,8 +5,7 @@
             <img class="rounded" src="./img/5-lt-amarillo.png" width="140" height="140">
 
             <h2>Envases Plasticos</h2>
-            <p>Some representative placeholder content for the three columns of text below the carousel. This is the
-                first column.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
             <p><a id="btn-openpdf" class="btn btn-secondary" href="productos" target="_blank">View details &raquo;</a></p>
         </div>
         <!-- /.col-lg-4 -->
@@ -19,8 +18,7 @@
             </svg>
 
             <h2>Herrajes carrozados</h2>
-            <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second
-                column.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur</p>
             <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
         </div>
         <!-- /.col-lg-4 -->
@@ -33,7 +31,7 @@
             </svg>
 
             <h2>Aire Libre</h2>
-            <p>And lastly this, the third column of representative placeholder content.</p>
+            <p>Lorem ipsum dolor sit amet, con</p>
             <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
         </div>
         <!-- /.col-lg-4 -->
