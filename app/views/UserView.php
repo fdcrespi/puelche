@@ -11,6 +11,6 @@ class UserView{
 
     function showProductos(){
         $smarty = new Smarty ();
-        $smarty->display('./templates/productos.tpl');
+        $smarty->display('./templates/images.tpl');
     }
 }

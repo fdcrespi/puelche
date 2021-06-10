@@ -9,7 +9,7 @@
     <script src="./assets/dist/js/jquery-3.6.0.min.js"></script>
     <script src="./assets/dist/js/popper.min.js"></script>
     <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     </body>
 
     <!-- FOOTER -->
