@@ -38,4 +38,9 @@ function initPage() {
         goElement(document.querySelector("#products"));
     });
 
+    document.querySelector("#btn-service").addEventListener("click", (e) => {
+        e.preventDefault();
+        goElement(document.querySelector("#services"));
+    })
+
 }

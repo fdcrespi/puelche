@@ -13,6 +13,10 @@
 
     <hr class="featurette-divider">
 
+    {include "services.tpl"}
+
+    <hr class="featurette-divider">
+
     {include "contacto.tpl"}
 
 </div>

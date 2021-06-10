@@ -1,5 +1,5 @@
 
-    <h2 id="products" class="text-center mb-5">Productos</h2>
+    <h2 id="products" class="text-center mb-5"><u>Productos</u></h2>
     <div class="row">
         <div class="col-lg-4">
             <img class="rounded" src="./img/5-lt-amarillo.png" width="140" height="140">

@@ -1,4 +1,5 @@
 <!-- /END THE FEATURETTES -->
+<h2 id="contact" class="text-center mb-5"><u>Contacto</u></h2>
 <div id="contactInfo" class="container contact text-secondary justify-content-center">
     <div class="row justify-content-center">
         <div class="col-lg-7 d-flex">
@@ -7,11 +8,22 @@
                 width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
         <div class="col w-100 d-flex flex-column justify-content-center text-center">
-            <i class="fas fa-phone-square pb-3"> 02983 434195</i>
+
+            <i class="fas fa-phone-square pb-3">
+                02983 434195
+                <a href="tel:+54-9-2983-434195">
+                    <i class="fas fa-phone-volume"></i>
+                </a>
+            </i>
+
             <i class="fas fa-mobile-alt"> +54 9 2983 409523
                 <a class="text-success"
-                    href="https://api.whatsapp.com/send?phone=+542983655609&text=%C2%A1Buenos%20d%C3%ADas!%20Quiero%20saber%20mas" target="_blank">
+                    href="https://api.whatsapp.com/send?phone=+542983655609&text=%C2%A1Buenos%20d%C3%ADas!%20Quiero%20saber%20mas"
+                    target="_blank">
                     <i class="fab fa-whatsapp pb-3 pt-1"></i>
+                </a>
+                <a href="tel:+54-9-2983-409523">
+                    <i class="fas fa-phone-volume"></i>
                 </a>
             </i>
             <i class="fas fa-envelope pb-3"> info@tallerespuelches.com</i>

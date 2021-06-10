@@ -1,6 +1,6 @@
 <div id="about" class="row featurette align-items-center">
     <div class="col-md-7">
-        <h2>¿Quienes somos?</h2>
+        <h2><u>¿Quienes somos?</u></h2>
         <p class="lead">Talleres Puelches es una empresa, con más 25 años de experiencia, en la industria metalúrgica y
             del plástico, que ofrece sus productos o servicios para los sectores agropecuario, transporte, aire libre,
             alimentación y química entre otros.</p>
